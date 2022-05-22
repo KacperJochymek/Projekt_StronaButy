@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv v="X-UA-Compatible" content="IE-edge, chrome=1" />
+	
+<title>Drop House</title>
+	<link rel="shortout icon" href="house.png" />
+	
+<meta name="description" content="Sklep internetowy z unikatowymi butami. Możesz tutaj kupić,
+	jak i sprzedać swojego graila." />
+<meta name="keywords" content="buty, drop, dropy, losowania, buty unikatowe, dropsy" />
+	
+	<link href="style.css" rel="stylesheet"  type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+	
+	
+	<link href="css/fontello.css" rel="stylesheet"  type="text/css" />
+
+	
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+	<!--	<center> <img src="dropik.png"/> </center> -->
+			<div style="clear:both;"></div>
+			</div>
+		</div>
+		<div class="glowna">
+			<ol>
+				<li><a href="#">Strona główna</a></li>
+				<li><a href="#">Buty</a>
+					<ul>
+						<li>
+						
+						
+						<a href="#etykieta1">38</a>
+						
+						
+						</li>
+						<li><a href="#">38</a></li>
+						<li><a href="#">39</a></li>
+						<li><a href="#">40</a></li>
+						<li><a href="#">42</a></li>
+						<li><a href="#">43</a></li>
+						<li><a href="#">44</a></li>
+						<li><a href="#">45</a></li>
+						<li><a href="#">46</a></li>
+					</ul>
+				</li>
+				
+				
+				<li><a href="#">Bluzy</a>
+					<ul>
+						<li>
+						
+						
+						<a href="#etykieta2">M</a>
+						
+						</li>
+						<li>
+						
+						<a href="#etykieta3">L</a>
+						
+						</li>
+						<li>
+						
+						<a href="#etykieta4">S</a>
+						
+						
+						</li>
+					</ul>
+				</li>
+				<li><a href="#">Koszulki</a>
+					<ul>
+						<li><a href="#">S</a></li>
+						<li><a href="#">M</a></li>
+						<li><a href="#">L</a></li>
+						<li><a href="#">XL</a></li>
+						<li><a href="#">XXL</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Spodnie</a>
+					<ul>
+						<li><a href="#">S</a></li>
+						<li><a href="#">M</a></li>
+						<li><a href="#">L</a></li>
+						<li><a href="#">XL</a></li>
+					</ul>
+				
+				</li>
+				<li><a href="#etykieta_social">Kontakt</a></li>
+				
+				
+				
+			</ol>
+		
+		</div>
+		
+		<div class="content">
+		<span style="color: black">
+	
+		What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		
+	
+		</span>
+		<p>
+
+		</p>
+		
+		<p>
+		
+		
+		<a id="etykieta1"></a>
+		
+		<h1></h1>
+		
+		
+		
+		
+		
+		
+		<a id="etykieta2"></a>
+		
+		<br>
+		
+		
+		
+		<a id="etykieta3"></a>
+		
+	
+		
+		
+		
+		
+		
+		</div>
+		
+		<a id="etykieta_social"></a>
+		 
+		 <div class="socialmedia">
+			<div class="socialdivs">
+			
+				<div class="fb">
+				<a href="https://www.facebook.com/">
+				
+				<i class="icon-facebook"></i>
+				
+				</a>
+				</div>
+				
+				<div class="yt">
+				
+				<a href="https://www.youtube.com/">
+				<i class="icon-youtube"></i>
+				</a>
+				</div>
+				
+				<div class="tw">
+				<a href="https://twitter.com/home">
+				<i class="icon-twitter"></i>
+				</a>
+				</div>
+				
+				<div class="gplus">
+				<a href="https://mail.google.com/mail/u/0/">
+				<i class="icon-googleplus"></i>
+				</a>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		 </div>
+	<div class="footer">
+	<span style="color: black"><strong>	DropHouse.com &copy; 2022</strong> </span>
+	</br>
+	</br>
+	<strong><a href="Regulamin/Regulamin.html" target="_blank"> Regulamin </strong></a>
+	<strong><a href="Polityka/Polityka.html" target="_blank"> Polityka Prywatności </strong></a>
+	
+	</div>
+	
+		
+	</div>
+	
+	<script src="jquery-3.6.0.js"></script>
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.glowna').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.glowna').addClass('sticky');
+	} else {
+		$('.glowna').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+
+</body>
+
+</html>
+
+
